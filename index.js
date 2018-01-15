@@ -15,4 +15,6 @@ function addElementToEndOfArray(array, element){
 
 var kittens = ["Milo", "Otis", "Garfield"];
 
-appendKitten("Ralph");
+function destructivelyAppendKitten(array, name){
+  
+}
