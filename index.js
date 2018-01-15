@@ -13,11 +13,14 @@ function addElementToEndOfArray(array, element){
   return [...array, element];
 }
 
-kittens = ["Milo", "Otis", "Garfield"];
 
-function destructivelyAppendKitten(array, name){
-  array.push(name);
-  return array;
+
+function destructivelyAppendKitten(name){
+  kittens = ["Milo", "Otis", "Garfield"];
+  kittens.push(name);
+  return kittens;
 }
 
-destructivelyAppendKitten(kittens, "Ralph");
+destructivelyAppendKitten("Ralph");
+
+function destructivelyPrependKitten(name)
