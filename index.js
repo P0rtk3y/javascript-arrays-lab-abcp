@@ -59,5 +59,4 @@ function prependKitten(name){
   return [name, ...kittens];
 }
 
-prependKitten("Broom");
-}
+prependKitten("Arnold");
