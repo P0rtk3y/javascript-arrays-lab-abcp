@@ -23,4 +23,10 @@ function destructivelyAppendKitten(name){
 
 destructivelyAppendKitten("Ralph");
 
-function destructivelyPrependKitten(name)
+function destructivelyPrependKitten(name){
+  kittens = ["Milo", "Otis", "Garfield"];
+  kittens.unshift(name);
+  return kittens
+}
+
+destructivelyPrependKitten("Bob");
