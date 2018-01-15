@@ -38,3 +38,11 @@ function destructivelyRemoveLastKitten(){
 }
 
 destructivelyRemoveLastKitten();
+
+function destructivelyRemoveFirstKitten(){
+  kittens = ["Milo", "Otis", "Garfield"];
+  kittens.shift();
+  return kittens;
+}
+
+destructivelyRemoveFirstKitten();
