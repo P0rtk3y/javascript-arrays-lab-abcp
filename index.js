@@ -13,6 +13,8 @@ function addElementToEndOfArray(array, element){
   return [...array, element];
 }
 
+var kittens = [""]
+
 function destructivelyAppendKitten(element, array){
   array.push(element);
   return array;
