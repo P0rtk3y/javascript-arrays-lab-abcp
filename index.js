@@ -53,3 +53,11 @@ function appendKitten(name){
 }
 
 appendKitten("Broom");
+
+function prependKitten(name){
+  kittens = ["Milo", "Otis", "Garfield"]
+  return [name, ...kittens];
+}
+
+prependKitten("Broom");
+}
