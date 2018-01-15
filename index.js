@@ -20,4 +20,4 @@ function destructivelyAppendKitten(array, element){
   return array;
 }
 
-destructivelyAppendKitten(kittens, )
+destructivelyAppendKitten(kittens, "Ralph");
