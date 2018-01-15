@@ -60,3 +60,10 @@ function prependKitten(name){
 }
 
 prependKitten("Arnold");
+
+function removeLastKitten(){
+  kittens = ["Milo", "Otis", "Garfield"]
+  kittens.slice(-1);
+}
+
+removeLastKitten();
