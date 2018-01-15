@@ -70,7 +70,7 @@ removeLastKitten();
 
 function removeFirstKitten(){
   kittens = ["Milo", "Otis", "Garfield"]
-  return kittens.slice(1, 3);
+  return kittens.slice(1);
 }
 
 removeFirstKitten();
