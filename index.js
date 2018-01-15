@@ -1,6 +1,6 @@
 const app = "I don't do much."
 
-function addElementToBeginningOfArray(element, array){
+function addElementToBeginningOfArray(array, element){
   return [element, ...array];
 }
 
