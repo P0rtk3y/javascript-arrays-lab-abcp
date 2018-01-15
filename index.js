@@ -52,4 +52,4 @@ function appendKitten(name){
   return [...kittens, name];
 }
 
-appendKitten("Brooms");
+appendKitten("Broom");
