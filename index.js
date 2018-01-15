@@ -67,3 +67,12 @@ function removeLastKitten(){
 }
 
 removeLastKitten();
+
+function removeFirstKitten(){
+  kittens = ["Milo", "Otis", "Garfield"]
+  return kittens.slice(1, 3);
+}
+
+removeFirstKitten();
+  
+}
