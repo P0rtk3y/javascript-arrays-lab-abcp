@@ -31,3 +31,10 @@ function destructivelyPrependKitten(name){
 
 destructivelyPrependKitten("Bob");
 
+function destructivelyRemoveLastKitten(){
+  kittens = ["Milo", "Otis", "Garfield"];
+  kittens.pop();
+  return kittens;
+}
+
+destructivelyRemoveLastKitten();
